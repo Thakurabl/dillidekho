@@ -329,10 +329,10 @@ section.tight { padding-block: clamp(2.5rem, 5vw, 4rem); }
 .hero-art-skyline {
   position: relative;
   z-index: 1;
-  max-width: 90%;
-  max-height: 92%;
+  height: 100%;
   width: auto;
-  height: auto;
+  max-width: 100%;
+  padding: 0.6rem 0;
 }
 
 /* ---------- Era anchor nav (jump-to within walks section) ---------- */
