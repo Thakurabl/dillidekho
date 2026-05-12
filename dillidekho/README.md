@@ -44,7 +44,7 @@ Or just double-click `index.html` (works without a server, except some font feat
 1. Push this repo to GitHub
 2. Import the repo in Vercel
 3. Set "Root Directory" to `dillidekho/`
-4. Deploy. Point `dillidekho.com` DNS at the Vercel CNAME.
+4. Deploy. Point `dillidekho.in` DNS at the Vercel CNAME. (`dillidekho.com` is owned and redirects to `.in` — `.in` is the canonical domain.)
 
 **Netlify** (drag-drop):
 1. Zip the `dillidekho/` folder
@@ -70,13 +70,13 @@ Hero copy: `index.html` → search `<section class="hero">`
 Walk cards: search `<article class="walk-card">` (three of them)
 SKU pricing/duration: inside `.walk-meta` divs
 Why us features: search `<section id="why">`
-Contact email/WhatsApp: search `mailto:hello@dillidekho.com` and `wa.me/`
+Contact email/WhatsApp: search `mailto:hello@dillidekho.in` and `wa.me/`
 
 Replace `919999999999` in the WhatsApp link with the real number when assigned.
 
 ## Next milestones
 
-- [ ] Buy `dillidekho.com` and point DNS
+- [x] Buy `dillidekho.in` (canonical) and `dillidekho.com` (redirect); point DNS
 - [ ] Deploy to Vercel
 - [ ] Replace SVG monument silhouettes with real photography (Unsplash interim, then your own from pilot walk)
 - [ ] Write blog posts 2 and 3 (Iron Pillar, Heritage Walks vs Bowling)
